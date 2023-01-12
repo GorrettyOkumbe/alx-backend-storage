@@ -1,0 +1,8 @@
+-- creating a table with 3 columns
+-- setting id as Primary key and email as unique
+CREATE TABLE IF NOT EXISTS users (
+	id INT NOT NULL AUTO_INCREMENT,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	name VARCHAR(255),
+	PRIMARY KEY (id)
+	);
