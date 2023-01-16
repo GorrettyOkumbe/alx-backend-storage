@@ -1,0 +1,4 @@
+// insert document
+school.insertOne({
+	"name": "Holberton school"
+	})
