@@ -1,4 +1,4 @@
 // insert document
-school.insertOne({
+school.insert({
 	"name": "Holberton school"
 	})
